@@ -3,17 +3,17 @@ package Exercicios;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Ex02A {
-
+public class Ex03A {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner read = new Scanner(System.in);
 
-        final double pi = 3.14159;
-        double r = read.nextDouble();
-        double a = pi * (r * r);
+        int A = read.nextInt();
+        int B = read.nextInt();
 
-        System.out.printf(String.format("A = %.4f", a));
+        int SOMA = A + B;
+
+        System.out.println("SOMA = " + SOMA);
 
         read.close();
     }
